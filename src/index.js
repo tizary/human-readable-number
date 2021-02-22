@@ -49,5 +49,5 @@ module.exports = function toReadable (a) {
       }
       }
       }
-      return result
+      return (result.slice(0,-1))
 }
