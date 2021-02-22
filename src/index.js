@@ -32,7 +32,7 @@ module.exports = function toReadable (a) {
       let result = ''
       let b = parseInt(a / 100)
       if (a == 0) {
-        result = 'zero'
+        result = 'zero '
       } else {
       for (let key in rom){
         while (rom[key] <= a) {
